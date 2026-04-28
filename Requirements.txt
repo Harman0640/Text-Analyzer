@@ -6,4 +6,3 @@ Transformers
 Streamlit
 bs4
 SpeechRecognition
-hellloooo
