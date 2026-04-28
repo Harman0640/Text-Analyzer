@@ -1,0 +1,9 @@
+Spacy 
+NLTK
+scikit-learn
+Tensorflow 
+Transformers
+Streamlit
+bs4
+SpeechRecognition
+hellloooo
