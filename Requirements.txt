@@ -1,7 +1,6 @@
 Spacy 
 NLTK
-scikit-learn
-Tensorflow 
+scikit-learn 
 Transformers
 Streamlit
 bs4
