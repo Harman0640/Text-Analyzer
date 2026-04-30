@@ -16,13 +16,13 @@ if "scraped_text" not in st.session_state:
 # ==============================
 # Load ML components
 # ===============================
-intent_model = joblib.load("../Notebooks/intent_model.pkl")
-intent_tfidf = joblib.load("../Notebooks/tfidf.pkl")
-intent_le = joblib.load("../Notebooks/label_encoder.pkl")
+intent_model = joblib.load("app/intent_model.pkl")
+intent_tfidf = joblib.load("app/tfidf.pkl")
+intent_le = joblib.load("app/label_encoder.pkl")
 
-sentiment_model = joblib.load("../Notebooks/sentiment_model.pkl")
-sentiment_tfidf = joblib.load("../Notebooks/sentiment_tfidf.pkl")
-sentiment_le = joblib.load("../Notebooks/sentiment_label_encoder.pkl")
+sentiment_model = joblib.load("app/sentiment_model.pkl")
+sentiment_tfidf = joblib.load("app/sentiment_tfidf.pkl")
+sentiment_le = joblib.load("app/sentiment_label_encoder.pkl")
 
 # Sentiment mapping
 sentiment_map = {
